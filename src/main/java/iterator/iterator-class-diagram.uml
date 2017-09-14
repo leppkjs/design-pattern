@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="246.0" y="171.0">iterator.BookShelfIterator</node>
+    <node x="249.97916666666669" y="0.0">iterator.Iterator</node>
+    <node x="0.0" y="189.5">iterator.Aggregate</node>
+    <node x="507.0" y="189.5">iterator.Book</node>
+    <node x="326.24999999999994" y="501.0">iterator.BookShelf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="iterator.BookShelfIterator" target="iterator.BookShelf">
+      <point x="80.0" y="60.5" />
+      <point x="446.0" y="332.0" />
+      <point x="453.125" y="332.0" />
+      <point x="-18.124999999999943" y="-97.5" />
+    </edge>
+    <edge source="iterator.BookShelf" target="iterator.BookShelfIterator">
+      <point x="-90.62499999999994" y="-97.5" />
+      <point x="380.625" y="322.0" />
+      <point x="286.0" y="322.0" />
+      <point x="-80.0" y="60.5" />
+    </edge>
+    <edge source="iterator.BookShelf" target="iterator.Iterator">
+      <point x="18.125000000000057" y="-97.5" />
+      <point x="489.375" y="332.0" />
+      <point x="496.5" y="332.0" />
+      <point x="496.5" y="146.0" />
+      <point x="449.9791666666667" y="146.0" />
+      <point x="80.0" y="60.5" />
+    </edge>
+    <edge source="iterator.BookShelf" target="iterator.Aggregate">
+      <point x="-126.87499999999994" y="-97.5" />
+      <point x="344.375" y="332.0" />
+      <point x="113.0" y="332.0" />
+      <point x="0.0" y="42.0" />
+    </edge>
+    <edge source="iterator.Aggregate" target="iterator.Iterator">
+      <point x="0.0" y="-42.0" />
+      <point x="113.0" y="146.0" />
+      <point x="289.9791666666667" y="146.0" />
+      <point x="-80.0" y="60.5" />
+    </edge>
+    <edge source="iterator.BookShelfIterator" target="iterator.Iterator">
+      <point x="0.0" y="-60.5" />
+      <point x="366.0" y="146.0" />
+      <point x="369.9791666666667" y="146.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="iterator.BookShelf" target="iterator.Book">
+      <point x="54.37500000000006" y="-97.5" />
+      <point x="525.625" y="332.0" />
+      <point x="545.6666666666666" y="332.0" />
+      <point x="-77.33333333333337" y="42.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="369.5" y="273.5" />
+  <SelectedNodes>
+    <node>iterator.BookShelf</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
