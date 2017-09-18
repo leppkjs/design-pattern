@@ -21,7 +21,7 @@ public class BookShelf implements Aggregate {
         return last;
     }
 
-    public Iterator<T> iterator() {
+    public Iterator iterator() {
         return new BookShelfIterator(this);
     }
 

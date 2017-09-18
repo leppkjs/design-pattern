@@ -1,6 +1,6 @@
 package iterator;
 
-public class BookShelfIterator implements Iterator<T> {
+public class BookShelfIterator implements Iterator<Book> {
     private BookShelf bookShelf;
     private int index;
 
@@ -18,8 +18,8 @@ public class BookShelfIterator implements Iterator<T> {
     }
 
     @Override
-    public T next() {
-        T book = bookShelf.getBookAt(index);
+    public Book next() {
+        Book book = bookShelf.getBookAt(index);
         index++;
         return book;
     }
